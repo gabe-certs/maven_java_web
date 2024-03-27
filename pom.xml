@@ -6,7 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>api</name>
 	<packaging>war</packaging>
-
+//adding sonar here
 	<properties>
 		<java-version>1.8</java-version>
 		<jackson.version>1.9.13</jackson.version>
@@ -59,7 +59,7 @@
 					<encoding>${project.build.sourceEncoding}</encoding>
 				</configuration>
 			</plugin>
-			<plugin>
+			<plugin> //adding this plugin to get this work
     				<groupId>org.apache.maven.plugins</groupId>
     				<artifactId>maven-war-plugin</artifactId>
     				<version>3.3.1</version>
